@@ -6,6 +6,8 @@ public class Utility {
     {
         String reverseString="";
         char[] charArray=inputString.toCharArray();
+
+        
       for (char inputchar:charArray)
       {
           reverseString=inputchar+reverseString;
